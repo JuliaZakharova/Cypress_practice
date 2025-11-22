@@ -1,0 +1,15 @@
+{
+  "name": "cypresstestproject",
+  "version": "1.0.0",
+  "description": "cypress tests",
+  "license": "ISC",
+  "author": "julia zakharova",
+  "type": "commonjs",
+  "main": "index.js",
+  "devDependencies": {
+        "cypress": "^15.5.0"
+      },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
