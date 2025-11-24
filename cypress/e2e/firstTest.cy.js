@@ -48,6 +48,8 @@ it('Поиск по классу с содержимым', ()=> {
     cy.get('*[class^="language"]') // * - найти любой, ^ - начинается со слова указанного
 }); */
 
+//коммент для практики перезаливки дока в гитхаб и мерджа после изменений
+
 it('Поиск по Get с Find и Eq', ()=> { // eq - берет селектор по индексу из набора
     cy.visit('https://www.vtb.by/chastnym-licam/valutno-obmennye-operacii') 
     cy.get('tbody').find('table').find('td').eq(2)
