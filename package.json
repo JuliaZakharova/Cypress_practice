@@ -7,8 +7,9 @@
   "type": "commonjs",
   "main": "index.js",
   "devDependencies": {
-        "cypress": "^15.5.0"
-      },
+    "@simonsmith/cypress-image-snapshot": "^10.0.3",
+    "cypress": "^15.5.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
